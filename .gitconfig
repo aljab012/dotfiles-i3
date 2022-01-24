@@ -1,0 +1,9 @@
+[user]
+	email = alhaitham.jabri@rihal.om
+	name = Alhaitham Al Jabri
+[commit]
+	template = /home/arch/.gitmessage
+[core]
+	editor = emacs
+[init]
+	defaultBranch = main
