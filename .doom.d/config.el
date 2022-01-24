@@ -59,8 +59,7 @@
   :hook ((typescript-mode . prettier-js-mode)
          (js-mode . prettier-js-mode)
          (json-mode . prettier-js-mode)
-         (yaml-mode . prettier-js-mode)
-         (go-mode . prettier-js-mode)))
+         (yaml-mode . prettier-js-mode)))
 (setq prettier-js-args '(
   "--trailing-comma" "es5"
   "--single-quote" "true"
