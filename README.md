@@ -9,3 +9,6 @@
 `config add <file>`  
 `config commit -m "<message>`  
 `config push`
+
+
+[More details](https://wiki.archlinux.org/title/Dotfiles)
