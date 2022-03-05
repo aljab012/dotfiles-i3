@@ -82,9 +82,6 @@ plugins=(git docker-compose zsh-autosuggestions autojump fzf zsh-syntax-highligh
 
 source $ZSH/oh-my-zsh.sh
 
-# no explaination needed
-export EDITOR='emacs'
-
 [[ -s /home/arch/.autojump/etc/profile.d/autojump.sh ]] && source /home/arch/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
