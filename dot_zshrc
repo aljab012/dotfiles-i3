@@ -7,7 +7,7 @@ fi
 
 # Golang config
 export GO111MODULE="on"
-export GOPATH=$HOME/go
+export GOPATH=$HOME/personal/go
 export PATH=$PATH:$GOPATH/bin
 
 export GOROOT=/usr/local/go
