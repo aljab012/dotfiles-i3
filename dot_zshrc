@@ -101,6 +101,7 @@ alias config='/usr/bin/git --git-dir=$HOME/personal/dotfiles.git/ --work-tree=$H
 alias k=kubectl
 KUBE_EDITOR="emacs"
 
+EDITOR="emacs"
 # run citrix from the command line
 function citrix(){
   /opt/Citrix/ICAClient/wfica "$1" &>/dev/null &
