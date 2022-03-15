@@ -8,7 +8,6 @@ fi
 # Golang config
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/work/go
-export GO111MODULE="on"
 
 # Other path exports
 export PATH=/home/arch/anaconda3/bin:$PATH
