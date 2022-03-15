@@ -61,6 +61,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+EDITOR="emacs"
+# vim ?                       just get real
+
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # You can set one of the optional three formats:
@@ -101,7 +104,6 @@ alias config='/usr/bin/git --git-dir=$HOME/personal/dotfiles.git/ --work-tree=$H
 alias k=kubectl
 KUBE_EDITOR="emacs"
 
-EDITOR="emacs"
 # run citrix from the command line
 function citrix(){
   /opt/Citrix/ICAClient/wfica "$1" &>/dev/null &
