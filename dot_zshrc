@@ -6,7 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Golang config
-export GO111MODULE="on"
 export GOPATH=$HOME/personal/go
 export PATH=$PATH:$GOPATH/bin
 
