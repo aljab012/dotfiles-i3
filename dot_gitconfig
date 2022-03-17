@@ -11,7 +11,7 @@
 	browser = google-chrome
 [color]
 	ui = auto
-[commit]
-    template = ~/.gitmessage
 [includeIf "gitdir:~/work/"]
     path = ~/.gitconfig-work
+[github]
+	user = aljab012
