@@ -110,5 +110,5 @@ function citrix(){
   /opt/Citrix/ICAClient/wfica "$1" &>/dev/null &
 }
 alias c='citrix'
-
 alias screenshot='maim -s | xclip -selection clipboard -t image/png'
+alias chezmoi='EDITOR=emacs chezmoi'
