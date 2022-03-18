@@ -95,7 +95,6 @@
        javascript        ; all(hope(abandon(ye(who(enter(here))))))
        markdown          ; writing docs for people to ignore
        org               ; organize your plain life in plain text
-       python            ; beautiful is better than ugly
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        yaml              ; JSON, but readable
 
