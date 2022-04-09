@@ -51,8 +51,9 @@
 ;; projecttile config
 (setq projectile-project-search-path '("~/dev" "~/aljab012"))
 
-(setq-default ediff-forward-word-function 'forward-char)
+;;(setq-default ediff-forward-word-function 'forward-char)
 
 ;; typescript mode keybindings
 ;;(map! :map typescript-mode
 ;;     :i "C-." #'tide-fix)
+
