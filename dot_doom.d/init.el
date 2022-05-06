@@ -92,7 +92,7 @@
        emacs-lisp        ; drown in parentheses
        (go +lsp)         ; the hipster dialect
        json              ; At least it ain't XML
-       javascript        ; all(hope(abandon(ye(who(enter(here))))))
+       (javascript +lsp)        ; all(hope(abandon(ye(who(enter(here))))))
        markdown          ; writing docs for people to ignore
        org               ; organize your plain life in plain text
        sh                ; she sells {ba,z,fi}sh shells on the C xor
