@@ -81,7 +81,7 @@ EDITOR="emacs"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker-compose zsh-autosuggestions autojump fzf zsh-syntax-highlighting zsh-vi-mode aliases)
+plugins=(git docker-compose zsh-autosuggestions autojump fzf zsh-syntax-highlighting zsh-vi-mode aliases thefuck)
 
 source $ZSH/oh-my-zsh.sh
 
