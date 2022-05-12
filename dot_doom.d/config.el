@@ -57,3 +57,8 @@
 ;;(map! :map typescript-mode
 ;;     :i "C-." #'tide-fix)
 
+;; turn off ts server logs
+(use-package lsp-mode
+  :hook (web-mode . lsp)
+  :custom
+  (lsp-clients-typescript-server-args '("--stdio" "--tsserver-log-file" "/dev/stderr")))
