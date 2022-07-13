@@ -114,3 +114,6 @@ alias c='citrix'
 alias pacman='sudo pacman'
 alias screenshot='maim -s | xclip -selection clipboard -t image/png'
 alias chezmoi='EDITOR=emacs chezmoi'
+
+# environment variables
+source ~/.zsh_env_vars
