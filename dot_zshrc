@@ -73,3 +73,9 @@ source ~/.zsh_env_vars
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# run citrix from the command line
+function citrix(){
+  /opt/Citrix/ICAClient/wfica "$1" &>/dev/null &
+}
+alias c='citrix'
