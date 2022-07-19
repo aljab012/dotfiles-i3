@@ -51,3 +51,6 @@
 
 ;; prettier config
 (package! prettier-js)
+
+;; leetcode
+(package! leetcode)
