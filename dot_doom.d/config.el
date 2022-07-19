@@ -62,3 +62,6 @@
   :hook (web-mode . lsp)
   :custom
   (lsp-clients-typescript-server-args '("--stdio" "--tsserver-log-file" "/dev/stderr")))
+
+;; leetcode
+(setq leetcode-prefer-language "golang")
