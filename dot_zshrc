@@ -79,3 +79,6 @@ function citrix(){
   /opt/Citrix/ICAClient/wfica "$1" &>/dev/null &
 }
 alias c='citrix'
+
+# Docker
+export DOCKER_BUILDKIT=1
