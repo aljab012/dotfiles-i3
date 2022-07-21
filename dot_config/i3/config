@@ -300,7 +300,7 @@ set $ws10 "10"
 # bind program to workspace and focus to them on startup:
 assign [class="Emacs"] $ws1
 assign [class="Xfce4-terminal"] $ws2
-assign [class="Google-chrome-stable"] $ws3
+assign [class="Google-chrome"] $ws3
 assign [class="Thunar"] $ws5
 
 # automatic set focus new window if it opens on another workspace then the current:
@@ -561,14 +561,14 @@ bindsym $mod+t exec rofi -show window \
 
 # Chrome
 bindsym $mod+b exec "google-chrome-stable"
-exec_always google-chrome-unstable
+exec_always google-chrome-stable
+
+# Terminal
+exec_always xfce4-terminal
 
 # Emacs
 bindsym $mod+m exec "emacs"
 exec_always emacs
-
-# Terminal
-exec_always xfce4-terminal
 
 # move focused workspace between monitors
 bindsym $mod+Ctrl+greater move workspace to output right
