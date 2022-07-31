@@ -65,3 +65,5 @@
 
 ;; leetcode
 (setq leetcode-prefer-language "golang")
+
+(add-to-list 'exec-path "/home/arch/.local/bin")
