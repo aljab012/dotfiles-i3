@@ -6,8 +6,8 @@
 
 
 ;; font/theme
-(setq doom-font (font-spec :family "monospace" :size 20 :weight 'semi-light)
-       doom-variable-pitch-font (font-spec :family "sans" :size 20))
+(setq doom-font (font-spec :family "monospace" :size 16 :weight 'semi-light)
+       doom-variable-pitch-font (font-spec :family "sans" :size 16))
 
 (setq doom-theme 'leuven)
 
