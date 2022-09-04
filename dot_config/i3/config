@@ -372,7 +372,7 @@ exec --no-startup-id sleep 2 && nitrogen --restore
 #exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
 
 # set powersavings for display:
-exec --no-startup-id xset s 480 dpms 600 600 600
+exec --no-startup-id xset s 480000 dpms 600000 600000 600000
 
 # disable power saving (for example if using xscreensaver)
 #exec --no-startup-id xset -dpms
