@@ -6,8 +6,8 @@
 
 
 ;; font/theme
-(setq doom-font (font-spec :family "monospace" :size 16 :weight 'semi-light)
-       doom-variable-pitch-font (font-spec :family "sans" :size 16))
+(setq doom-font (font-spec :family "monospace" :size 14 :weight 'semi-light)
+       doom-variable-pitch-font (font-spec :family "sans" :size 14))
 
 (setq doom-theme 'leuven)
 
@@ -54,14 +54,8 @@
 ;;(setq-default ediff-forward-word-function 'forward-char)
 
 ;; typescript mode keybindings
-;;(map! :map typescript-mode
-;;     :i "C-." #'tide-fix)
-
-;; turn off ts server logs
-(use-package lsp-mode
-  :hook (web-mode . lsp)
-  :custom
-  (lsp-clients-typescript-server-args '("--stdio" "--tsserver-log-file" "/dev/stderr")))
+(map! :map typescript-mode
+     :i "C-." #'tide-fix)
 
 ;; leetcode
 (setq leetcode-prefer-language "golang")
