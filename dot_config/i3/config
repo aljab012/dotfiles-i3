@@ -47,7 +47,7 @@ workspace_layout default
 ##############################
 
 #border indicator on windows:
-new_window pixel 1
+new_window pixel 4
 
 # thin borders
 # hide_edge_borders both
@@ -280,7 +280,7 @@ set $ws1 "1 "
 set $ws2 "2 "
 set $ws3 "3 "
 set $ws4 "4 "
-set $ws5 "5 "
+set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -572,9 +572,6 @@ exec_always emacs
 # move focused workspace between monitors
 bindsym $mod+Ctrl+greater move workspace to output right
 bindsym $mod+Ctrl+less move workspace to output left
-
-# monitors layout
-#exec_always xrandr --output eDP1 --off --output DP1 --mode 3840x2160 --pos 3888x0 --rotate normal --output HDMI1 --mode 3840x2160 --pos 0x0 --rotate normal --output HDMI2 --off --output VIRTUAL1 --off
 
 # screenshot
 bindsym $mod+Ctrl+p exec "maim -s --format png /dev/stdout | xclip -selection clipboard -t image/png -i"
