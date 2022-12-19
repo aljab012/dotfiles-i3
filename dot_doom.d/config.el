@@ -6,8 +6,8 @@
 
 
 ;; font/theme
-(setq doom-font (font-spec :family "monospace" :size 14 :weight 'semi-light)
-       doom-variable-pitch-font (font-spec :family "sans" :size 14))
+(setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
+       doom-variable-pitch-font (font-spec :family "sans" :size 12))
 
 (setq doom-theme 'leuven)
 
@@ -61,3 +61,5 @@
 (setq leetcode-prefer-language "golang")
 
 (add-to-list 'exec-path "/home/arch/.local/bin")
+
+(add-to-list 'auto-mode-alist '("\\.proto\\'" . protobuf-mode))
