@@ -24,6 +24,7 @@ alias chezmoi='EDITOR=emacs chezmoi'
 
 # Golang config
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$(go env GOPATH)/bin
 export GOPATH=$HOME/work/go
 export GO111MODULE="on"
 
