@@ -15,7 +15,9 @@
     path = ~/.gitconfig-work
 [github]
 	user = aljab012
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
 [push]
 	autoSetupRemote = true
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[url "git@github.com:"]
+	insteadOf = https://github.com/

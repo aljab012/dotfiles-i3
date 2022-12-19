@@ -62,11 +62,12 @@
        grammar           ; tasing grammar mistake every you make
 
        :tools
+       tree-sitter
        ;;ansible
        ;;biblio            ; Writes a PhD for you (citation needed)
        ;;debugger          ; FIXME stepping through code, to help you add bugs
        ;;direnv
-       ;;docker
+       (docker +lsp)
        ;;editorconfig      ; let someone else argue about tabs vs spaces
        ;;ein               ; tame Jupyter notebooks with emacs
        (eval +overlay)     ; run code, run (also, repls)
@@ -90,11 +91,11 @@
 
        :lang
        emacs-lisp        ; drown in parentheses
-       (go +lsp)         ; the hipster dialect
+       (go +lsp +tree-sitter)         ; the hipster dialect
        json              ; At least it ain't XML
        (javascript +lsp)        ; all(hope(abandon(ye(who(enter(here))))))
        markdown          ; writing docs for people to ignore
-       org               ; organize your plain life in plain text
+       (org +present)               ; organize your plain life in plain text
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        yaml              ; JSON, but readable
 
