@@ -3,7 +3,7 @@
 (doom! :input
 
        :completion
-       company           ; the ultimate code completion backend
+       (company +childframe)           ; the ultimate code completion backend
        vertico           ; the search engine of the future
 
        :ui

@@ -54,3 +54,12 @@
 
 ;; leetcode
 (package! leetcode)
+
+;; proto buffers
+(package! protobuf-mode)
+
+;; chezmoi
+(package! chezmoi)
+
+(package! copilot
+  :recipe (:host github :repo "zerolfx/copilot.el" :files ("*.el" "dist")))

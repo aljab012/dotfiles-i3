@@ -575,3 +575,5 @@ bindsym $mod+Ctrl+less move workspace to output left
 
 # screenshot
 bindsym $mod+Ctrl+p exec "maim -s --format png /dev/stdout | xclip -selection clipboard -t image/png -i"
+
+exec --no-startup-id xsetroot -gray

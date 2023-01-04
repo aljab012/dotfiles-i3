@@ -51,8 +51,6 @@
 ;; projecttile config
 (setq projectile-project-search-path '("~/dev" "~/aljab012"))
 
-;;(setq-default ediff-forward-word-function 'forward-char)
-
 ;; typescript mode keybindings
 (map! :map typescript-mode
      :i "C-." #'tide-fix)
@@ -63,3 +61,15 @@
 (add-to-list 'exec-path "/home/arch/.local/bin")
 
 (add-to-list 'auto-mode-alist '("\\.proto\\'" . protobuf-mode))
+
+
+;; copilot mode config
+(use-package! copilot
+  :bind (("C-TAB" . 'copilot-accept-completion-by-word)
+         ("C-<tab>" . 'copilot-accept-completion-by-word)
+         :map copilot-completion-map
+         ("<tab>" . 'copilot-accept-completion)
+         ("TAB" . 'copilot-accept-completion)
+         ("C-g" . #'copilot-clear-overlay)
+         ("C-n" . #'copilot-next-completion)
+         ("C-p" . #'copilot-previous-completion)))
