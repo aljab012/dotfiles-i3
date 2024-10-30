@@ -1,0 +1,24 @@
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="gentoo"
+
+plugins=(git docker-compose zsh-autosuggestions autojump fzf aliases thefuck web-search fast-syntax-highlighting)
+
+alias k=kubectl
+KUBE_EDITOR="emacs"
+
+# Golang config
+export GOPATH=$HOME/work/go
+export GO111MODULE="on"
+export PATH=/home/alhaitham/work/go/bin:$PATH
+
+# Other path exports
+export PATH=$HOME/.config/emacs/bin:$PATH
+
+# Editor config
+EDITOR="emacs"
+
+
+# Docker
+export DOCKER_BUILDKIT=1
+export GOPROXY=direct
