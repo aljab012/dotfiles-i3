@@ -5,4 +5,5 @@ with pkgs;
 [
   zsh
   alacritty
+  htop
 ]
