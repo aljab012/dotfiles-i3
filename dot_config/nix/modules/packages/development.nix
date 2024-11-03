@@ -18,4 +18,5 @@ with pkgs;
   docker-compose
   dockfmt
   home-manager
+  ispell
 ]

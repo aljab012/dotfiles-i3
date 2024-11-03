@@ -6,4 +6,5 @@ with pkgs;
   zsh
   alacritty
   htop
+  bat
 ]
