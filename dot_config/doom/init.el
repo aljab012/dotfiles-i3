@@ -99,6 +99,7 @@
        (org +present +hugo)               ; organize your plain life in plain text
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        yaml              ; JSON, but readable
+       (python +lsp +pyright)           ; beautiful is better than ugly
 
        :email
        ;;(mu4e +org +gmail)
