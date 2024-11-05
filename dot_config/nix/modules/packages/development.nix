@@ -19,4 +19,5 @@ with pkgs;
   dockfmt
   home-manager
   ispell
+  nodePackages.prettier
 ]
