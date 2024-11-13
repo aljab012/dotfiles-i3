@@ -20,4 +20,10 @@ with pkgs;
   home-manager
   ispell
   nodePackages.prettier
+  pyright
+  vscode
+  python3
+  black
+  python311Packages.pip
+  python311Packages.flake8
 ]
