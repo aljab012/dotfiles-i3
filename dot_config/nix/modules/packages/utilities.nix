@@ -23,4 +23,5 @@ with pkgs;
   dbeaver-bin
   postman
   peek
+  nitrogen
 ]
