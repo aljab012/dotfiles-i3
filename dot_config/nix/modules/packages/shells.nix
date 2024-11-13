@@ -7,4 +7,5 @@ with pkgs;
   alacritty
   htop
   bat
+  git-lfs
 ]
