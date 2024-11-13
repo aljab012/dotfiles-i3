@@ -59,6 +59,7 @@
 (setq warning-minimum-level :emergency)
 
 (setq +format-on-save-disabled-modes (add-to-list '+format-on-save-disabled-modes 'dockerfile-mode))
+(setq +format-on-save-disabled-modes (add-to-list '+format-on-save-disabled-modes 'python-mode))
 
 ;; lsp config
 (setq lsp-restart 'auto-restart)
