@@ -74,7 +74,7 @@
        ;;gist              ; interacting with github gists
        lookup              ; navigate your code and its documentation
        lsp               ; M-x vscode
-       (magit +forge)             ; a git porcelain for Emacs
+       magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
        pdf               ; pdf enhancements
@@ -96,10 +96,10 @@
        json              ; At least it ain't XML
        (javascript +lsp +tree-sitter)        ; all(hope(abandon(ye(who(enter(here))))))
        markdown          ; writing docs for people to ignore
-       (org +present +hugo)               ; organize your plain life in plain text
+       (org +present +hugo +jupyter)               ; organize your plain life in plain text
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        yaml              ; JSON, but readable
-       (python +lsp +tree-sitter +pyright)           ; beautiful is better than ugly
+       (python +lsp +tree-sitter +pyright +pyenv)           ; beautiful is better than ugly
 
        :email
        ;;(mu4e +org +gmail)
