@@ -2,9 +2,12 @@
 
 {
   # Sound configuration
-  sound.enable = true;
-  hardware.pulseaudio.enable = true;
-  hardware.pulseaudio.package = pkgs.pulseaudioFull;
+
+  # Disable PipeWire to avoid conflicts with PulseAudio
+  services.pipewire.enable = false;
+
+  services.pulseaudio.enable = true;
+  services.pulseaudio.package = pkgs.pulseaudioFull;
 
   # Bluetooth services
   hardware.bluetooth.enable = true;
