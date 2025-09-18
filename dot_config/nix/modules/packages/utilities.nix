@@ -18,10 +18,10 @@ with pkgs;
   xclip
   arandr
   peek
-  pcmanfm
-  maim
   dbeaver-bin
   postman
   peek
+  maim
   nitrogen
+  pcmanfm
 ]

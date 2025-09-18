@@ -13,4 +13,14 @@
     "nix-command"
     "flakes"
   ];
+
+  # Automatic garbage collection
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 30d";
+  };
+
+  # Automatic store optimization
+  nix.settings.auto-optimise-store = true;
 }
