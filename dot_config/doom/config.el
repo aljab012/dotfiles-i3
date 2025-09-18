@@ -21,11 +21,11 @@
 (setq projectile-project-search-path '("~/work" "~/personal"))
 
 ;; leetcode
-(setq leetcode-prefer-language "golang")
+;;(setq leetcode-prefer-language "golang")
 
 (add-to-list 'exec-path "/home/arch/.local/bin")
 
-(add-to-list 'auto-mode-alist '("\\.proto\\'" . protobuf-mode))
+;;(add-to-list 'auto-mode-alist '("\\.proto\\'" . protobuf-mode))
 
 ;; copilot mode config
 (use-package! copilot
@@ -48,11 +48,10 @@
          ("C-g" . #'copilot-clear-overlay)
          ("C-n" . #'copilot-next-completion)
          ("C-p" . #'copilot-previous-completion))
-  :config (setq global-company-mode t)
   )
 
-(add-hook 'leetcode-solution-mode-hook
-          (lambda() (flycheck-mode -1)))
+;; (add-hook 'leetcode-solution-mode-hook
+;;         (lambda() (flycheck-mode -1)))
 
 (use-package! lsp-tailwindcss)
 
@@ -63,3 +62,7 @@
 
 ;; lsp config
 (setq lsp-restart 'auto-restart)
+
+'(doom-modeline-project-detection nil)
+'(projectile-auto-update-cache nil)
+'(projectile-dynamic-mode-line nil)
