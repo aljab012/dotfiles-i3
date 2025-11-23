@@ -99,7 +99,7 @@
        (org +present +hugo +jupyter)               ; organize your plain life in plain text
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        yaml              ; JSON, but readable
-       (python +lsp +tree-sitter +pyright +pyenv)           ; beautiful is better than ugly
+       (python +lsp +tree-sitter)           ; beautiful is better than ugly
 
        :email
        ;;(mu4e +org +gmail)
