@@ -30,10 +30,13 @@ with pkgs;
   python313Packages.pyflakes
   python313Packages.isort
   python313Packages.pytest
+  python313Packages.tree-sitter
+  tree-sitter
   pipenv
 
   hugo
   code-cursor
   pre-commit
   ruff
+  claude-code
 ]
