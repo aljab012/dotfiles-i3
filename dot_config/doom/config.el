@@ -66,3 +66,6 @@
 '(doom-modeline-project-detection nil)
 '(projectile-auto-update-cache nil)
 '(projectile-dynamic-mode-line nil)
+
+(setq tramp-default-method "ssh")
+(setq tramp-use-ssh-controlmaster-options nil)
