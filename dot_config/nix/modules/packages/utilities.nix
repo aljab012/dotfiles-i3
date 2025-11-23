@@ -24,4 +24,5 @@ with pkgs;
   maim
   nitrogen
   pcmanfm
+  pgbackrest
 ]
