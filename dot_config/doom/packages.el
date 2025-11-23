@@ -31,3 +31,19 @@
 (package! tsi :recipe (:host github :repo "orzechowskid/tsi.el" :branch "main"))
 
 ;;(package! nvm :recipe (:host github :repo "rejeep/nvm.el"))
+
+(setq treesit-language-source-alist
+      '((typescript "https://github.com/tree-sitter/tree-sitter-typescript" "master" "typescript/src")
+        (tsx "https://github.com/tree-sitter/tree-sitter-typescript" "master" "tsx/src")))
+
+;; Auto-install missing grammars
+(defun my/install-treesit-grammars ()
+  "Install missing tree-sitter grammars."
+  (interactive)
+  (dolist (grammar treesit-language-source-alist)
+    (let ((lang (car grammar)))
+      (unless (treesit-language-available-p lang)
+        (treesit-install-language-grammar lang)))))
+
+;; Install on startup if needed
+(my/install-treesit-grammars)
