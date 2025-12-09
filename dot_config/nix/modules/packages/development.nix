@@ -39,4 +39,5 @@ with pkgs;
   pre-commit
   ruff
   claude-code
+  github-copilot-cli
 ]
